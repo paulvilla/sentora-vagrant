@@ -20,13 +20,13 @@ chmod +x sentora_install.sh
 yum -y update
 yum -y remove bind
 ./sentora_install.sh -t Europe/Madrid -d cpanel.sentora.dev -i 192.168.33.10
-echo "============================"
-echo "==== PASSWORDS  SENTORA ===="
-echo "============================"
+echo "============================================="
+echo "======== PASSWORDS DEL PANEL SENTORA ========"
+echo "============================================="
 cat /root/passwords.txt
-echo "============================"
-echo "============================"
-echo "============================"
+echo "============================================="
+echo "============================================="
+echo "============================================="
 exit
 SHELL
 end
