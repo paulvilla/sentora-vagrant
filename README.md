@@ -9,10 +9,10 @@ vagrant plugin install vagrant-vbguest
 5. Lazaremos el siguiente comando:
 vagrant up
 6. En tu archivo host añadiremos la siguiente linea:
-- windows: 
+windows: 
   192.168.33.10          cpanel.sentora.dev
   192.168.1.10           sentora.dev
-- Linux:
+Linux:
   ................
 
 Con esto ya tendriamos funcionando todo con la carpeta compartida y la conexión desde nuestro navegador.
