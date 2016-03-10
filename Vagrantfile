@@ -8,10 +8,10 @@ config.vm.synced_folder ".", "/var/sentora/hostdata",
 	type: "nfs",
 	mount_options: ["dmode=777", "fmode=666"]
 config.vm.provider "virtualbox" do |vb|
-	vb.gui = false
+	vb.name = "CentOS 7 - Sentora"
 	v.cpus = "1"
 	vb.memory = "2048"
-	vb.name = "CentOS 7 - Sentora"
+	vb.gui = false
 end
 
 config.vm.provision "shell", inline: <<-SHELL
