@@ -29,5 +29,5 @@ Usos externos de repositorios
 =====
 Box
 -----
-He utilizado la caja creada de CentOS 7 del siguiente repositorio:
+He utilizado la caja creada de CentOS 7 del siguiente repositorio asta nuevas creaciones:
 https://github.com/CommanderK5/packer-centos-template
