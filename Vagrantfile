@@ -9,6 +9,7 @@ config.vm.synced_folder ".", "/var/sentora/hostdata",
 	mount_options: ["dmode=777", "fmode=666"]
 config.vm.provider "virtualbox" do |vb|
 	vb.gui = false
+	v.cpus = "1"
 	vb.memory = "2048"
 	vb.name = "CentOS 7 - Sentora"
 end
