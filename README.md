@@ -5,16 +5,18 @@ USO
 =====
 Instalación
 -----
-Instalar Vagrant
-Por seguridad a posibles fallos vamos a lanzar el siguiente comando:
+1.Instalar Vagrant
+2.Por seguridad a posibles fallos vamos a lanzar el siguiente comando:
 ```json
 vagrant plugin install vagrant-vbguest
 ```
-Descargaremos el repositorio y lo movemos a tu carpeta de usuario.
-No movemos a dicha carpeta
-Lazaremos el siguiente comando:
+3.Descargaremos el repositorio y lo movemos a tu carpeta de usuario.
+4.No movemos a dicha carpeta
+5.Lazaremos el siguiente comando:
+```json
 vagrant up
-En tu archivo host añadiremos la siguiente linea:
+```
+6.En tu archivo host añadiremos la siguiente linea:
 ```json
 windows: 
   192.168.33.10          cpanel.sentora.dev
