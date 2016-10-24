@@ -19,8 +19,8 @@ vagrant up
 6. En tu archivo host añadiremos la siguiente linea:
 ```json
 windows: 
-  192.168.33.10          cpanel.sentora.dev
-  192.168.33.10           sentora.dev
+  192.168.1.10          cpanel.sentora.dev
+  192.168.1.10           sentora.dev
 Linux:
   ................
 ```
