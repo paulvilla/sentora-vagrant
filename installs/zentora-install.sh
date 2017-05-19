@@ -1,2 +1,6 @@
-wget http://sentora.org/install -O sentora_install.sh
-chmod +x sentora_install.sh
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+wget http://zppy.github.io/zentora_installer.sh
+chmod +x zentora_installer.sh
+./zentora_installer.sh
+exit

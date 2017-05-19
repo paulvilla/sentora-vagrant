@@ -1,2 +1,5 @@
-yum -y update
-yum -y remove bind
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+apt -y upgrade
+apt -y remove bind
+exit
