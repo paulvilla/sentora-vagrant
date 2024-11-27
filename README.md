@@ -11,12 +11,12 @@ Instalación
 vagrant plugin install vagrant-vbguest
 ```
 3. Descargaremos el repositorio y lo movemos a tu carpeta de usuario.
-4. No movemos a dicha carpeta
-5. Lazaremos el siguiente comando:
+4. Nos movemos a dicha carpeta
+5. Lanzaremos el siguiente comando:
 ```
 vagrant up
 ```
-6. En tu archivo host añadiremos la siguiente linea:
+6. En tu archivo host añadiremos la siguiente línea:
 ```
 windows: 
   192.168.1.10          cpanel.sentora.dev
@@ -25,7 +25,7 @@ Linux:
   ................
 ```
 
-Con esto ya tendriamos funcionando todo con la carpeta compartida y la conexión desde nuestro navegador.
+Con esto ya tendríamos funcionando todo con la carpeta compartida y la conexión desde nuestro navegador.
 
 Usos externos de repositorios
 =====
